@@ -1,0 +1,76 @@
+.learning-videos-page {
+  text-align: center;
+  padding: 70px;
+  color: #d3d3d3; /* Light gray text */
+  background: #0a0a0a; /* Dark background */
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #00bfff; /* Neon blue */
+  margin-bottom: 10px;
+}
+
+.page-description {
+  font-size: 1.2rem;
+  color: white; /* Electric green */
+  margin-bottom: 20px;
+}
+
+/* Video Player */
+.video-player {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid #00bfff;
+  box-shadow: 0 0 15px #00bfff;
+}
+
+/* Video Grid */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Video Card */
+.video-card {
+  background: #222;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.6);
+}
+
+.video-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.video-card:hover .video-thumbnail {
+  opacity: 0.8;
+}
+
+.video-info h3 {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #00bfff;
+}
+
+.video-info p {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-top: 5px;
+}

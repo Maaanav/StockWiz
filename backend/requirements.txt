@@ -1,0 +1,8 @@
+fastapi
+pymongo
+sentence-transformers
+numpy
+pydantic
+pymupdf
+uvicorn
+fitz
