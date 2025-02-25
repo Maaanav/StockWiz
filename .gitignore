@@ -5,13 +5,19 @@
 /.pnp
 .pnp.js
 
+# Ignore virtual environments
 backend/venv/
 backend/new_venv/
+
+# Ignore node_modules
 frontend/node_modules/
-__pycache__/
-*.log
+
+# Ignore large dependencies
 *.dylib
+*.so
 *.pkl
+*.log
+
 
 # testing
 /coverage
