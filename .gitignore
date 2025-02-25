@@ -5,6 +5,14 @@
 /.pnp
 .pnp.js
 
+backend/venv/
+backend/new_venv/
+frontend/node_modules/
+__pycache__/
+*.log
+*.dylib
+*.pkl
+
 # testing
 /coverage
 
