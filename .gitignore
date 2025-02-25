@@ -8,6 +8,7 @@
 # Ignore virtual environments
 backend/venv/
 backend/new_venv/
+backend/zango-e4c64-275669e16629.json
 
 # Ignore node_modules
 frontend/node_modules/
